@@ -27,7 +27,8 @@ colorCode <- brewer.pal(8, "Paired")
 wordcloud(
     words = no_space,
     min.freq = 5,
-    max.words = 400,
+    max.words = 300,
     random.order = F,
-    colors = colorCode
+    colors = colorCode,
+    scale = c(10, 0.3)
 )
